@@ -1,4 +1,8 @@
-export default [
+export default {
+  "count": 14,
+  "next": null,
+  "previous": null,
+  "results": [
     {
       "id": 1,
       "name": "PC",
@@ -8,8 +12,8 @@ export default [
           "id": 4,
           "name": "PC",
           "slug": "pc",
-          "games_count": 528013,
-          "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg",
+          "games_count": 528009,
+          "image_background": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -25,8 +29,8 @@ export default [
           "id": 187,
           "name": "PlayStation 5",
           "slug": "playstation5",
-          "games_count": 1058,
-          "image_background": "https://media.rawg.io/media/games/e11/e11325e2f89151d31f612e38dee3b6a0.jpg",
+          "games_count": 1060,
+          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
           "image": null,
           "year_start": 2020,
           "year_end": null
@@ -35,8 +39,8 @@ export default [
           "id": 18,
           "name": "PlayStation 4",
           "slug": "playstation4",
-          "games_count": 6800,
-          "image_background": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
+          "games_count": 6803,
+          "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -65,8 +69,8 @@ export default [
           "id": 27,
           "name": "PlayStation",
           "slug": "playstation1",
-          "games_count": 1669,
-          "image_background": "https://media.rawg.io/media/screenshots/ba5/ba5f0dd05f44cc48c918683764e3a125.jpg",
+          "games_count": 1670,
+          "image_background": "https://media.rawg.io/media/games/6c0/6c00ee85d1344f58c469e8e47fd8ae7c.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -102,8 +106,8 @@ export default [
           "id": 1,
           "name": "Xbox One",
           "slug": "xbox-one",
-          "games_count": 5614,
-          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg",
+          "games_count": 5615,
+          "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -112,8 +116,8 @@ export default [
           "id": 186,
           "name": "Xbox Series S/X",
           "slug": "xbox-series-x",
-          "games_count": 912,
-          "image_background": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg",
+          "games_count": 917,
+          "image_background": "https://media.rawg.io/media/games/5eb/5eb49eb2fa0738fdb5bacea557b1bc57.jpg",
           "image": null,
           "year_start": 2020,
           "year_end": null
@@ -149,8 +153,8 @@ export default [
           "id": 3,
           "name": "iOS",
           "slug": "ios",
-          "games_count": 77244,
-          "image_background": "https://media.rawg.io/media/games/e74/e74458058b35e01c1ae3feeb39a3f724.jpg",
+          "games_count": 77242,
+          "image_background": "https://media.rawg.io/media/games/5fa/5fae5fec3c943179e09da67a4427d68f.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -166,8 +170,8 @@ export default [
           "id": 21,
           "name": "Android",
           "slug": "android",
-          "games_count": 52346,
-          "image_background": "https://media.rawg.io/media/games/daa/daaee07fcb40744d90cf8142f94a241f.jpg",
+          "games_count": 52345,
+          "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -194,7 +198,7 @@ export default [
           "name": "Classic Macintosh",
           "slug": "macintosh",
           "games_count": 674,
-          "image_background": "https://media.rawg.io/media/screenshots/52b/52b958a7b263d4f264648b710e76a236.jpg",
+          "image_background": "https://media.rawg.io/media/games/14a/14a83c56ff668baaced6e8c8704b6391.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -238,7 +242,7 @@ export default [
           "name": "Nintendo Switch",
           "slug": "nintendo-switch",
           "games_count": 5442,
-          "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg",
+          "image_background": "https://media.rawg.io/media/games/4cf/4cfc6b7f1850590a4634b08bfab308ab.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -472,7 +476,7 @@ export default [
           "name": "Commodore / Amiga",
           "slug": "commodore-amiga",
           "games_count": 2079,
-          "image_background": "https://media.rawg.io/media/screenshots/101/1015fe740ce5654eb97c9140f6da3c3e.jpg",
+          "image_background": "https://media.rawg.io/media/games/637/637d7dc2f44d0f6ddd3ee2c0b1366962.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
@@ -599,12 +603,13 @@ export default [
           "id": 171,
           "name": "Web",
           "slug": "web",
-          "games_count": 260088,
-          "image_background": "https://media.rawg.io/media/screenshots/7ad/7ad89835bf24aa24ce2b1dcad2a3833b.jpg",
+          "games_count": 260087,
+          "image_background": "https://media.rawg.io/media/screenshots/fa5/fa5614030bcda5f7eb5403c681aec7a6.jpg",
           "image": null,
           "year_start": null,
           "year_end": null
         }
       ]
     }
-  ];
+  ]
+}
