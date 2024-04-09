@@ -5,12 +5,16 @@ import SearchInput from "./SearchInput";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  //make the nav bar to the full screen width
-
   return (
     <HStack padding="10px">
       <Link to="/">
-        <Image src={logo} boxSize="60px" objectFit="cover" />
+        <Image
+          src={logo}
+          boxSize="60px"
+          objectFit="cover"
+          height="auto"
+          maxWidth="60px"
+        />
       </Link>
       <Box w="full">
         <SearchInput />
